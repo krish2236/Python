@@ -8,7 +8,7 @@ def is_prime(n):
 while True:
     try:
         n = int(input("Enter a number: "))
-        break  
+        break 
     except ValueError:
         print("Please enter a valid integer.")
 if is_prime(n):
